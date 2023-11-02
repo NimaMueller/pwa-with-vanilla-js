@@ -88,7 +88,7 @@ function getStream (type) {
     !navigator.mozGetUserMedia && !navigator.msGetUserMedia) {
     alert('User Media API not supported.');
     return;
-  }
+  }}
 
   var constraints = {};
   constraints[type] = true;
