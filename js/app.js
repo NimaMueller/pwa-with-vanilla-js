@@ -185,7 +185,7 @@ function clearCache() {
 }
 
 
-// Geolocation
+// Get Geolocation
 
 var target = document.getElementById('target');
 var watchId;
