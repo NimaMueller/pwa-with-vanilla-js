@@ -351,40 +351,4 @@ async function writeFile() {
   
   target.innerHTML = 'Test content written to ' + file.name + '.';
 }
-HTML
-<div class="columns">
-  <div class="column">
-    <button class="btn-file">
-      Choose some files to read<br>(File API) <input type="file" onchange="readFiles(this.files)" multiple>
-    </button>
-    
-    <p>Number of selected files: <b id="count">N/A</b></p>
-  </div>
-  <div class="column">
-    <button class="btn-file" onclick="writeFile()">
-      Choose file to create or overwrite<br>(Native File System API)
-    </button>
-  </div>
-</div>
-
-<ul id="target"></ul>
-CSS
-.btn-file {
-    position: relative;
-    overflow: hidden;
-    margin: 10px;
-}
-.btn-file input[type=file] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    outline: none;
-    background: #fff;
-    cursor: inherit;
-    display: block;
-}
-
 
