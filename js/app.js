@@ -302,6 +302,7 @@ if ('localStorage' in window || 'sessionStorage' in window) {
 
   window.addEventListener('storage', onStorageChanged);
 }
+
 // File Access
 function getReadFile(reader, i) {
   return function () {
