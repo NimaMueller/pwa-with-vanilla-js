@@ -352,6 +352,8 @@ async function writeFile() {
   
   target.innerHTML = 'Test content written to ' + file.name + '.';
 }
+
+//noticeboard
 function startDrag(e) {
   this.ontouchmove = this.onmspointermove = moveDrag;
 
