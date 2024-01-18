@@ -30,3 +30,16 @@ self.addEventListener("fetch", fetchEvent => {
     })
   );
 });
+
+self.addEventListener('install', function(event) {
+  console.log('service-worker-install.js test');
+
+  self.addEventListener("activate", activateEvent => {
+  console.log('Service Worker: Activate Event');
+});
+
+self.addEventListener("install", installEvent => {
+  console.log('Service Worker: install Event');
+});
+
+
