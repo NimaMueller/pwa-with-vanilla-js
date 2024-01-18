@@ -1,7 +1,7 @@
 const CACHE_NAME = 'my-pwa-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
+  '/serviceworkerInstall.html',
   '/test.json',
   '/icon.png'
 ];
