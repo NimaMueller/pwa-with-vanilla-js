@@ -3,7 +3,6 @@ const urlsToCache = [
   '/',
   '/serviceworkerInstall.html',
   '/test.json',
-  '/icon.png'
 ];
 
 self.addEventListener('install', function(event) {
