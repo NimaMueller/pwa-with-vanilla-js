@@ -6,6 +6,8 @@ const urlsToCache = [
 ];
 
 self.addEventListener('install', function(event) {
+  console.log('service-worker-install.js test');
+
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
