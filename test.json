@@ -2,7 +2,7 @@
   "name": "Meine PWA",
   "short_name": "PWA",
   "description": "Eine Beispiel-Progressive Web App",
-  "start_url": "/index.html",
+  "start_url": "/serviceworkerInstall.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
