@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviceworker Install</title>
+  <!-- Fügen Sie hier Ihr Manifest-Datei-Link ein -->
+</head>
+<body>
+  <h1>Serviceworker Install</h1>
+
+  <!-- Fügen Sie hier Ihren Hauptinhalt ein -->
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker wurde registriert:', registration);
+        })
+        .catch(function(error) {
+          console.log('Fehler bei der Registrierung des Service Workers:', error);
+        });
+    }
+  </script>
+</body>
+</html>
